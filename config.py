@@ -24,5 +24,3 @@ settings = Settings()
 
 if not settings.bot_token:
     raise RuntimeError("BOT_TOKEN is required.")
-if not settings.gemini_api_key:
-    raise RuntimeError("GEMINI_API_KEY is required.")
